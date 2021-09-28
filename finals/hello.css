@@ -1,0 +1,199 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.box {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #999;
+	padding: 5px;
+}
+
+.box img {
+	height: 300px;
+	width: 300px;
+}
+
+.div1 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.div2 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	height: 120vh;
+
+
+}
+
+.div3 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	height: 80vh;
+
+}
+
+.div4 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	height: 120vh;
+
+}
+
+.div5 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+	height: 120vh;
+
+}
+/* css ni pabs */
+
+
+.footer-container{
+      text-align: center;
+      position: relative;
+      color:white;
+      background-color:#1f1c10;
+      height:200px;
+      width:100%;
+  }
+  .footer-text{
+    letter-spacing: 3px;
+    position:absolute;
+    font-size:15px;
+    top:50%;
+    left:30%;
+
+  }
+  .footer-copyright{
+      letter-spacing:2px;
+      position:absolute;
+      font-size:10px;
+      bottom:0;
+      left:33%;
+  }
+  .logo2{
+    width: 15%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:10%;
+    left:5%;
+
+  }
+ /* ako na ni nga css dre */
+ h2 {
+ 	background-color: #a6280f;
+ 	text-align: center;
+ 	height: 10vh;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	color: #f1f1f1;
+ }
+
+ .submit {
+ 	display: flex;
+ 	flex-flow: row wrap;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+
+ .submit input {
+ 	font-size: 30px;
+ 	margin: 20px;
+ 	padding: 20px;
+ 	background-color: #ffd2a6;
+ 	color: #f1f1f1;
+ 	border-radius: 20px;
+ }
+
+.submit input:hover {
+	color:#ffd2a6;
+ 	background-color: #f1f1f1;
+ 	box-shadow: 5px 5px 5px grey;
+}
+
+.navigator{
+    position:absolute;
+    top:75%;
+    left:17%;
+    display:flex;
+}
+body{
+    background-color:#ffd2a6;
+}
+.logo-container{
+    height:100px;
+    width: 100%;
+    background-color: #1f1c10;
+    position:fixed;
+    opacity:0.9;
+}
+.logo-image{
+    margin-top: 10px;
+    margin-left:44%;
+    width:12%;
+}
+.option-position{
+    position:absolute;
+    width: 100%;
+}
+.option-container{
+    position: fixed;
+    margin-top:100px;
+    height:40px;
+    width: 100%;
+    background-color: #fab70c;
+    opacity: 0.9;
+}
+.option-bar{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.options {  
+    color:#fff;
+    font-size:15px;
+    font-family:'Bahnschrift';
+    margin:10px;
+    letter-spacing:2px;
+    text-decoration: none;
+    border:2px 2px solid black
+
+}
+.options a{
+    text-decoration: none;
+    transition: 0.3s;
+    color:black;
+}
+.options a:hover{
+    color: white;  
+    text-decoration: none;
+    filter:drop-shadow(1px 1px 1px orangered);
+}
+.reservation-container{
+
+    height:1000px;
+    background-color:#edddb4;
+}
+.reservation-layout{
+    float:right;
+    height:600px;
+    width: 100%;
+}
